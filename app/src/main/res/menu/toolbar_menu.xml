@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainPage">
+    <item android:id="@+id/cameravideo"
+        android:title="摄像头"
+        android:orderInCategory="100"
+        android:icon="@drawable/camera"
+        app:showAsAction="never"/>
+    <item android:id="@+id/downloadvideo"
+        android:title="网络视频"
+        android:orderInCategory="100"
+        android:icon="@drawable/download"
+        app:showAsAction="never"/>
+</menu>
